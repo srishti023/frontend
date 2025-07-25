@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./PomodoroTimer.css";
 
 const PomodoroTimer = () => {
-  const [seconds, setSeconds] = useState(5);
+  const [seconds, setSeconds] = useState(1500);
   const [isActive, setIsActive] = useState(false);
   const [isBreak, setIsBreak] = useState(false);
 

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import PomodoroTimer from "./PomodoroTimer";
+import { Link } from 'react-router-dom';
+import Dashboard from './Dashboard';
 
 const YOUTUBE_API_KEY = "AIzaSyDMeNA64-rxFlM-A3FZcnhcgZpWkX02g0U"; // replace this
 
@@ -154,6 +156,7 @@ function App() {
           );
         })}
       </div>
+      <Dashboard/>
     </div>
   );
 }
